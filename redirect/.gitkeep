@@ -1,0 +1,5 @@
+This folder is intentionally empty.
+
+It is the public directory for the old personal-website-14b97.web.app site,
+which now only serves a 301 redirect to https://imantoafiif.web.app — no files
+of its own. See the second "hosting" entry in firebase.json.

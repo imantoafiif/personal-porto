@@ -1,0 +1,2568 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M. Afiif Imanto — Senior Software Engineer</title>
+    <meta
+      name="description"
+      content="M. Afiif Imanto — full-stack software engineer with 7+ years building scalable web and mobile products, cloud-native systems, and modern user experiences. Google Cloud certified."
+    />
+    <meta name="author" content="M. Afiif Imanto" />
+    <meta name="theme-color" content="#05070A" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="M. Afiif Imanto — Senior Software Engineer"
+    />
+    <meta
+      property="og:description"
+      content="Full-stack engineer building scalable software, cloud-native applications, and modern user experiences."
+    />
+    <meta property="og:image" content="assets/images/hero-poster.jpg" />
+
+    <!-- Fonts: Space Grotesk (display) + Inter (body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%2305070A'/><text x='50' y='68' font-size='48' font-family='sans-serif' font-weight='700' fill='%234F8CFF' text-anchor='middle'>AI</text></svg>"
+    />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- ============================================================
+         ICON SPRITE
+         Interface icons (i-*) and technology marks (t-*). Kept inline
+         because an external sprite file cannot be fetched over file://.
+         ============================================================ -->
+    <svg class="sprite" aria-hidden="true" focusable="false">
+      <!-- ---------- Interface ---------- -->
+      <symbol id="i-github" viewBox="0 0 24 24">
+        <path
+          fill="currentColor"
+          d="M12 .5C5.73.5.9 5.33.9 11.6c0 4.9 3.17 9.06 7.57 10.53.55.1.75-.24.75-.53v-1.9c-3.08.67-3.73-1.3-3.73-1.3-.5-1.29-1.23-1.63-1.23-1.63-1.01-.69.08-.67.08-.67 1.11.08 1.7 1.15 1.7 1.15.99 1.7 2.6 1.21 3.23.93.1-.72.39-1.21.7-1.49-2.46-.28-5.05-1.23-5.05-5.48 0-1.21.43-2.2 1.15-2.98-.12-.28-.5-1.41.11-2.94 0 0 .93-.3 3.05 1.14a10.6 10.6 0 0 1 5.56 0c2.12-1.44 3.05-1.14 3.05-1.14.61 1.53.23 2.66.11 2.94.72.78 1.15 1.77 1.15 2.98 0 4.26-2.6 5.19-5.07 5.47.4.35.76 1.03.76 2.08v3.08c0 .3.2.64.76.53 4.4-1.47 7.56-5.63 7.56-10.53C23.1 5.33 18.27.5 12 .5Z"
+        />
+      </symbol>
+      <symbol id="i-linkedin" viewBox="0 0 24 24">
+        <path
+          fill="currentColor"
+          d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05a3.74 3.74 0 0 1 3.37-1.85c3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14Zm1.78 13.02H3.55V9h3.57v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0Z"
+        />
+      </symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24">
+        <path
+          fill="currentColor"
+          d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 3.4-7.47 5.23a1 1 0 0 1-1.06 0L4 7.4V6l8 5.6L20 6v1.4Z"
+        />
+      </symbol>
+      <symbol id="i-external" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M14 4h6v6M20 4 11 13M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"
+        />
+      </symbol>
+      <symbol id="i-lock" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M6 10V7a6 6 0 1 1 12 0v3M5 10h14v10H5z"
+        />
+      </symbol>
+      <symbol id="i-download" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M12 3v12m0 0 4.5-4.5M12 15l-4.5-4.5M4 19h16"
+        />
+      </symbol>
+      <symbol id="i-arrow-up" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M12 20V5m0 0-6 6m6-6 6 6"
+        />
+      </symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11Z"
+        />
+        <circle
+          cx="12"
+          cy="10"
+          r="2.6"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        />
+      </symbol>
+      <symbol id="i-cap" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.9"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M2 8.5 12 4l10 4.5-10 4.5z M6 10.7V16c0 1.7 2.7 3 6 3s6-1.3 6-3v-5.3M21 9.2v5"
+        />
+      </symbol>
+
+      <!-- ---------- Technology marks ---------- -->
+      <symbol id="t-html" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linejoin="round"
+          d="M4 3h16l-1.5 16L12 21l-6.5-2z"
+        />
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="m10.3 9-2 3 2 3M13.7 9l2 3-2 3"
+        />
+      </symbol>
+      <symbol id="t-css" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linejoin="round"
+          d="M4 3h16l-1.5 16L12 21l-6.5-2z"
+        />
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M11 8.5c-1.4 0-1.4 3.5-2.6 3.5 1.2 0 1.2 3.5 2.6 3.5M13 8.5c1.4 0 1.4 3.5 2.6 3.5-1.2 0-1.2 3.5-2.6 3.5"
+        />
+      </symbol>
+      <symbol id="t-js" viewBox="0 0 24 24">
+        <rect
+          x="3"
+          y="3"
+          width="18"
+          height="18"
+          rx="4"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+        />
+        <text
+          x="12"
+          y="16.2"
+          text-anchor="middle"
+          font-family="Space Grotesk, sans-serif"
+          font-size="8.6"
+          font-weight="700"
+          fill="currentColor"
+        >
+          JS
+        </text>
+      </symbol>
+      <symbol id="t-ts" viewBox="0 0 24 24">
+        <rect
+          x="3"
+          y="3"
+          width="18"
+          height="18"
+          rx="4"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+        />
+        <text
+          x="12"
+          y="16.2"
+          text-anchor="middle"
+          font-family="Space Grotesk, sans-serif"
+          font-size="8.6"
+          font-weight="700"
+          fill="currentColor"
+        >
+          TS
+        </text>
+      </symbol>
+      <symbol id="t-react" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="1.9" fill="currentColor" />
+        <g fill="none" stroke="currentColor" stroke-width="1.4">
+          <ellipse cx="12" cy="12" rx="9.5" ry="3.8" />
+          <ellipse
+            cx="12"
+            cy="12"
+            rx="9.5"
+            ry="3.8"
+            transform="rotate(60 12 12)"
+          />
+          <ellipse
+            cx="12"
+            cy="12"
+            rx="9.5"
+            ry="3.8"
+            transform="rotate(120 12 12)"
+          />
+        </g>
+      </symbol>
+      <symbol id="t-next" viewBox="0 0 24 24">
+        <circle
+          cx="12"
+          cy="12"
+          r="9.2"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+        />
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M8.8 16V8l7.2 9.4M15.4 8v5"
+        />
+      </symbol>
+      <symbol id="t-vue" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linejoin="round"
+          d="M2.5 4h4l5.5 9.5L17.5 4h4L12 20.5z"
+        />
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linejoin="round"
+          d="M7.6 4h2.4l2 3.5L14 4h2.4"
+        />
+      </symbol>
+      <symbol id="t-nuxt" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linejoin="round"
+          d="M2 19h9L6.5 10.5z"
+        />
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linejoin="round"
+          d="M9.5 19H22l-6.2-11-3.1 5.5"
+        />
+      </symbol>
+      <symbol id="t-sass" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linejoin="round"
+          d="M12 3.2c3.4 3.7 5.6 6.2 5.6 9a5.6 5.6 0 1 1-11.2 0c0-2.8 2.2-5.3 5.6-9Z"
+        />
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+          stroke-linecap="round"
+          d="M14.6 13.2c-1.6 2.4-6 1.5-6 3.2"
+        />
+      </symbol>
+      <symbol id="t-tailwind" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M3.4 10.6c1.4-3.4 3.7-4.3 5.7-2.9 1.3 1 1.7 2.2 3.4 2.6 1.5.3 2.9-.3 4.2-2.1-1.4 3.4-3.7 4.3-5.7 2.9-1.3-1-1.7-2.2-3.4-2.6-1.5-.3-2.9.3-4.2 2.1Z"
+        />
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M6.3 15.8c1.4-3.4 3.7-4.3 5.7-2.9 1.3 1 1.7 2.2 3.4 2.6 1.5.3 2.9-.3 4.2-2.1-1.4 3.4-3.7 4.3-5.7 2.9-1.3-1-1.7-2.2-3.4-2.6-1.5-.3-2.9.3-4.2 2.1Z"
+        />
+      </symbol>
+      <symbol id="t-flutter" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linejoin="round"
+          d="M15.5 2.5 5 13l3.2 3.2L21.4 2.5z"
+        />
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linejoin="round"
+          d="M15.5 12.2 9.8 17.9l3.3 3.6h8.3l-5.7-5.7"
+        />
+      </symbol>
+      <symbol id="t-android" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M5 12.5a7 7 0 0 1 14 0zM7.6 6.4 6.3 4.3M16.4 6.4l1.3-2.1M4 14.4h16v4.2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"
+        />
+        <circle cx="9.4" cy="9.6" r="0.9" fill="currentColor" />
+        <circle cx="14.6" cy="9.6" r="0.9" fill="currentColor" />
+      </symbol>
+      <symbol id="t-pwa" viewBox="0 0 24 24">
+        <rect
+          x="6"
+          y="2.6"
+          width="12"
+          height="18.8"
+          rx="2.6"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+        />
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M12 7.4v6m0 0 2.4-2.4M12 13.4 9.6 11M10.4 17.6h3.2"
+        />
+      </symbol>
+      <symbol id="t-capacitor" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M15.5 3.2 3.2 15.5l5.3 5.3L20.8 8.5z"
+        />
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          d="M9.6 8.3 15.7 14.4"
+        />
+      </symbol>
+      <symbol id="t-django" viewBox="0 0 24 24">
+        <rect
+          x="3"
+          y="3"
+          width="18"
+          height="18"
+          rx="4"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+        />
+        <text
+          x="12"
+          y="16.2"
+          text-anchor="middle"
+          font-family="Space Grotesk, sans-serif"
+          font-size="8.6"
+          font-weight="700"
+          fill="currentColor"
+        >
+          dj
+        </text>
+      </symbol>
+      <symbol id="t-node" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linejoin="round"
+          d="M12 2.4 20.6 7v10L12 21.6 3.4 17V7z"
+        />
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M9.4 15.4h.9a1.4 1.4 0 0 0 1.4-1.4V8.6M14.6 9.4c-1.7-.6-3 0-3 1.2 0 1.9 3.2 1.1 3.2 3 0 1-1 1.6-2.6 1.2"
+        />
+      </symbol>
+      <symbol id="t-express" viewBox="0 0 24 24">
+        <rect
+          x="3"
+          y="3"
+          width="18"
+          height="18"
+          rx="4"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+        />
+        <text
+          x="12"
+          y="16.2"
+          text-anchor="middle"
+          font-family="Space Grotesk, sans-serif"
+          font-size="8.2"
+          font-weight="700"
+          fill="currentColor"
+        >
+          ex
+        </text>
+      </symbol>
+      <symbol id="t-php" viewBox="0 0 24 24">
+        <ellipse
+          cx="12"
+          cy="12"
+          rx="10.4"
+          ry="6.4"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+        />
+        <text
+          x="12"
+          y="14.6"
+          text-anchor="middle"
+          font-family="Space Grotesk, sans-serif"
+          font-size="6.4"
+          font-weight="700"
+          fill="currentColor"
+        >
+          php
+        </text>
+      </symbol>
+      <symbol id="t-java" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M4.6 11.4h11.2v4.4a3.4 3.4 0 0 1-3.4 3.4H8a3.4 3.4 0 0 1-3.4-3.4z"
+        />
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M15.8 12.6h1.6a2.4 2.4 0 1 1 0 4.8h-1.6M9 8.4c-1.4-1.4.6-2.2 1.2-3.4M13 8.4c-1.4-1.4.6-2.2 1.2-3.4"
+        />
+      </symbol>
+      <symbol id="t-python" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+          stroke-linejoin="round"
+          d="M12 2.8c-3 0-4.6.8-4.6 2.8v2.2h5v.9H5.8C3.7 8.7 2.6 10 2.6 12.6s1 3.9 3.2 3.9h1.6v-2.6c0-1.9 1.5-3.2 3.4-3.2h3.4c1.7 0 3-1.2 3-2.9V5.6c0-1.7-1.5-2.8-4.2-2.8z"
+        />
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+          stroke-linejoin="round"
+          d="M12 21.2c3 0 4.6-.8 4.6-2.8v-2.2h-5v-.9h6.6c2.1 0 3.2-1.3 3.2-3.9s-1-3.9-3.2-3.9h-1.6v2.6c0 1.9-1.5 3.2-3.4 3.2H9.8c-1.7 0-3 1.2-3 2.9v2.2c0 1.7 1.5 2.8 4.2 2.8z"
+        />
+      </symbol>
+      <symbol id="t-cloud" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M7 18.5A4.5 4.5 0 0 1 6.4 9.6a6 6 0 0 1 11.3-1.2A4.6 4.6 0 0 1 17.4 18.5z"
+        />
+      </symbol>
+      <symbol id="t-docker" viewBox="0 0 24 24">
+        <g
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          stroke-linejoin="round"
+        >
+          <rect x="3.4" y="10.6" width="3.2" height="3.2" />
+          <rect x="7.2" y="10.6" width="3.2" height="3.2" />
+          <rect x="11" y="10.6" width="3.2" height="3.2" />
+          <rect x="7.2" y="7" width="3.2" height="3.2" />
+          <rect x="11" y="7" width="3.2" height="3.2" />
+        </g>
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M2.6 15.4h15c2.4 0 3.8-1.3 4.2-3.4-1.2-.7-2.6-.6-3.4.2-.4-2-1.8-2.9-1.8-2.9M4.5 18.6c3.4 1.7 10.4 1.6 13.4-3.2"
+        />
+      </symbol>
+      <symbol id="t-git" viewBox="0 0 24 24">
+        <g
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+        >
+          <circle cx="6.5" cy="18" r="2.4" />
+          <circle cx="6.5" cy="6" r="2.4" />
+          <circle cx="17.5" cy="9.4" r="2.4" />
+          <path d="M6.5 8.4v7.2M15.4 11.2c-1.4 2.6-4 2.4-6.5 3.4" />
+        </g>
+      </symbol>
+      <symbol id="t-bitbucket" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linejoin="round"
+          d="M2.8 4.2h18.4l-2.9 15.6H5.7z"
+        />
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linejoin="round"
+          d="M8.6 9.2h6.8l-1 5.4h-4.8z"
+        />
+      </symbol>
+      <symbol id="t-vite" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linejoin="round"
+          d="M2.6 5.2 12 21.4l9.4-16.2-9.4 2.4z"
+        />
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linejoin="round"
+          d="M13.4 2.6 9.6 9.8l3-.5-1.2 5.4 4-7.4-3 .5z"
+        />
+      </symbol>
+      <symbol id="t-database" viewBox="0 0 24 24">
+        <g
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+        >
+          <ellipse cx="12" cy="6" rx="7.4" ry="3.2" />
+          <path d="M4.6 6v12c0 1.8 3.3 3.2 7.4 3.2s7.4-1.4 7.4-3.2V6" />
+          <path d="M4.6 12c0 1.8 3.3 3.2 7.4 3.2s7.4-1.4 7.4-3.2" />
+        </g>
+      </symbol>
+      <symbol id="t-table" viewBox="0 0 24 24">
+        <g
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linejoin="round"
+        >
+          <rect x="3.2" y="4.4" width="17.6" height="15.2" rx="2.4" />
+          <path d="M3.2 9.6h17.6M9.4 9.6v10M3.2 14.6h17.6" />
+        </g>
+      </symbol>
+      <symbol id="t-nodes" viewBox="0 0 24 24">
+        <g
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+        >
+          <circle cx="6" cy="6.4" r="2.6" />
+          <circle cx="18" cy="6.4" r="2.6" />
+          <circle cx="12" cy="18" r="2.6" />
+          <path d="M8.6 6.4h6.8M7.2 8.8l3.4 6.8M16.8 8.8l-3.4 6.8" />
+        </g>
+      </symbol>
+      <symbol id="t-figma" viewBox="0 0 24 24">
+        <g
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+          stroke-linejoin="round"
+        >
+          <path
+            d="M12 2.8H8.6a3.2 3.2 0 0 0 0 6.4H12zM12 2.8h3.4a3.2 3.2 0 0 1 0 6.4H12z"
+          />
+          <path d="M12 9.2H8.6a3.2 3.2 0 0 0 0 6.4H12z" />
+          <path d="M12 15.6H8.8a3.2 3.2 0 1 0 3.2 3.2z" />
+          <circle cx="15.4" cy="12.4" r="3.2" />
+        </g>
+      </symbol>
+      <symbol id="t-plane" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linejoin="round"
+          d="M21.4 2.6 2.8 10.2l7 2.6 2.4 8z"
+        />
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linejoin="round"
+          d="m9.8 12.8 11.6-10.2-6.4 17"
+        />
+      </symbol>
+      <symbol id="t-sparkle" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linejoin="round"
+          d="M12 2.6c0 5.2 3.6 9 9.4 9.4-5.8.4-9.4 4.2-9.4 9.4 0-5.2-3.6-9-9.4-9.4 5.8-.4 9.4-4.2 9.4-9.4Z"
+        />
+      </symbol>
+      <symbol id="t-cursor" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linejoin="round"
+          d="M5.4 3.2 19 11.6l-6 1.6-2.4 6z"
+        />
+      </symbol>
+      <symbol id="t-claude" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          d="M12 3.4v17.2M4.6 7.6l14.8 8.8M19.4 7.6 4.6 16.4"
+        />
+      </symbol>
+      <symbol id="t-api" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M8.6 5.6H7a2.4 2.4 0 0 0-2.4 2.4v2A2 2 0 0 1 2.6 12a2 2 0 0 1 2 2v2A2.4 2.4 0 0 0 7 18.4h1.6M15.4 5.6H17a2.4 2.4 0 0 1 2.4 2.4v2a2 2 0 0 0 2 2 2 2 0 0 0-2 2v2a2.4 2.4 0 0 1-2.4 2.4h-1.6"
+        />
+        <circle cx="12" cy="12" r="1.4" fill="currentColor" />
+      </symbol>
+      <symbol id="t-review" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="m8.4 7.6-4.6 4.6 4.6 4.6M14 6.4l-3.4 11.2M15.6 12.6l2 2 4-4.4"
+        />
+      </symbol>
+      <symbol id="t-layers" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linejoin="round"
+          d="m12 3 9 5-9 5-9-5z"
+        />
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linejoin="round"
+          d="m3.6 12.4 8.4 4.6 8.4-4.6M3.6 16.6 12 21.2l8.4-4.6"
+        />
+      </symbol>
+      <symbol id="t-blocks" viewBox="0 0 24 24">
+        <g
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linejoin="round"
+        >
+          <rect x="3.4" y="3.4" width="7.2" height="7.2" rx="1.8" />
+          <rect x="13.4" y="3.4" width="7.2" height="7.2" rx="1.8" />
+          <rect x="3.4" y="13.4" width="7.2" height="7.2" rx="1.8" />
+          <rect x="13.4" y="13.4" width="7.2" height="7.2" rx="1.8" />
+        </g>
+      </symbol>
+      <symbol id="t-gear" viewBox="0 0 24 24">
+        <circle
+          cx="12"
+          cy="12"
+          r="3.2"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+        />
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M19.4 14.6a1.6 1.6 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.6 1.6 0 0 0-2.7 1.1v.3a2 2 0 1 1-4 0v-.2a1.6 1.6 0 0 0-2.8-1.1l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.6 1.6 0 0 0-1.1-2.7h-.3a2 2 0 1 1 0-4h.2a1.6 1.6 0 0 0 1.1-2.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.6 1.6 0 0 0 2.7-1.1v-.3a2 2 0 1 1 4 0v.2a1.6 1.6 0 0 0 2.8 1.1l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.6 1.6 0 0 0 1.1 2.7h.3a2 2 0 1 1 0 4h-.2a1.6 1.6 0 0 0-1.4.9z"
+        />
+      </symbol>
+      <symbol id="t-link" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M10.2 13.8a4 4 0 0 0 6 .4l2.4-2.4a4 4 0 0 0-5.6-5.6l-1.4 1.4M13.8 10.2a4 4 0 0 0-6-.4L5.4 12.2a4 4 0 0 0 5.6 5.6l1.4-1.4"
+        />
+      </symbol>
+      <symbol id="t-expand" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M9 3.4H3.4V9M15 3.4h5.6V9M9 20.6H3.4V15M15 20.6h5.6V15M3.4 3.4l6 6M20.6 3.4l-6 6M3.4 20.6l6-6M20.6 20.6l-6-6"
+        />
+      </symbol>
+      <symbol id="t-route" viewBox="0 0 24 24">
+        <g
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <circle cx="6" cy="19" r="2.4" />
+          <circle cx="18" cy="5" r="2.4" />
+          <path d="M15.6 5H10a3.4 3.4 0 0 0 0 6.8h4a3.6 3.6 0 0 1 0 7.2H8.4" />
+        </g>
+      </symbol>
+      <symbol id="t-cycle" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M20.4 12a8.4 8.4 0 0 1-14.6 5.6M3.6 12a8.4 8.4 0 0 1 14.6-5.6"
+        />
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M18.2 2.6v3.8h-3.8M5.8 21.4v-3.8h3.8"
+        />
+      </symbol>
+      <symbol id="t-shield" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linejoin="round"
+          d="M12 2.8 4.6 6v6c0 4.4 3 7.6 7.4 9.2 4.4-1.6 7.4-4.8 7.4-9.2V6z"
+        />
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="m9 12.2 2.2 2.2 4-4.4"
+        />
+      </symbol>
+      <symbol id="t-scan" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M3.4 8.4V5.8a2.4 2.4 0 0 1 2.4-2.4h2.6M15.6 3.4h2.6a2.4 2.4 0 0 1 2.4 2.4v2.6M20.6 15.6v2.6a2.4 2.4 0 0 1-2.4 2.4h-2.6M8.4 20.6H5.8a2.4 2.4 0 0 1-2.4-2.4v-2.6M3.4 12h17.2"
+        />
+      </symbol>
+      <symbol id="t-bug" viewBox="0 0 24 24">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M8 8.4a4 4 0 0 1 8 0v4.4a4 4 0 0 1-8 0zM8 10.6H4.2M19.8 10.6H16M8 15.4l-3.2 2.4M16 15.4l3.2 2.4M9.4 5.6 7.6 3.4M14.6 5.6l1.8-2.2"
+        />
+      </symbol>
+      <symbol id="t-seo" viewBox="0 0 24 24">
+        <circle
+          cx="10.6"
+          cy="10.6"
+          r="6.6"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+        />
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="m15.4 15.4 5 5M8 12.2v-1.6M10.6 12.2V8.4M13.2 12.2v-3"
+        />
+      </symbol>
+      <symbol id="t-mobile" viewBox="0 0 24 24">
+        <rect
+          x="6.4"
+          y="2.6"
+          width="11.2"
+          height="18.8"
+          rx="2.6"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+        />
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          d="M10.6 18.2h2.8"
+        />
+      </symbol>
+    </svg>
+
+    <!-- ============================================================
+         NAVIGATION — transparent at top, glass blur after scrolling
+         ============================================================ -->
+    <header class="nav" id="nav">
+      <div class="nav__inner container">
+        <a class="nav__brand" href="#home">
+          <span class="nav__mark" aria-hidden="true">AI</span>
+          <span class="nav__name">Afiif Imanto</span>
+        </a>
+
+        <nav class="nav__links" id="navLinks" aria-label="Main navigation">
+          <a href="#home" class="nav__link is-active">Home</a>
+          <a href="#about" class="nav__link">About</a>
+          <a href="#experience" class="nav__link">Experience</a>
+          <a href="#certification" class="nav__link">Certification</a>
+          <a href="#education" class="nav__link">Education</a>
+          <a href="#projects" class="nav__link">Projects</a>
+          <a href="#skills" class="nav__link">Skills</a>
+          <a href="#contact" class="nav__link">Contact</a>
+        </nav>
+
+        <button
+          type="button"
+          class="nav__burger"
+          id="navBurger"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="navLinks"
+        >
+          <span aria-hidden="true"></span><span aria-hidden="true"></span
+          ><span aria-hidden="true"></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- ==========================================================
+           HERO — 100vh, cinematic city skyline video background
+           ========================================================== -->
+      <section class="hero" id="home">
+        <div class="hero__media" aria-hidden="true">
+          <!-- Aerial city loop, compressed to 720p30 (~3.6 MB) and graded dark
+               in CSS. The poster is frame one of the same clip, so the hero
+               looks identical before the video starts playing. -->
+          <video
+            class="hero__video"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="auto"
+            poster="assets/images/hero-poster.jpg"
+          >
+            <source src="assets/videos/city-skyline.mp4" type="video/mp4" />
+          </video>
+          <div class="hero__overlay"></div>
+          <div class="hero__vignette"></div>
+          <div class="hero__grid"></div>
+        </div>
+
+        <div class="hero__inner container">
+          <!-- Left: copy -->
+          <div class="hero__content" data-parallax="0.12">
+            <p class="hero__eyebrow reveal">
+              <span class="dot" aria-hidden="true"></span> Hello, I'm
+            </p>
+
+            <h1 class="hero__title reveal" data-delay="1">Afiif Imanto</h1>
+
+            <!-- Animated emphasis: roles light up in sequence (pure CSS, no rotation) -->
+            <!-- Typewriter: script.js reads the roles out of .roles__source
+                 (the single source of truth, which also serves screen readers)
+                 and types them one at a time into .roles__typed. -->
+            <p class="roles reveal" data-delay="2">
+              <span class="roles__typed" aria-hidden="true"></span>
+              <span class="roles__caret" aria-hidden="true"></span>
+              <span class="roles__source sr-only">
+                <span class="roles__item">Senior Software Engineer</span>
+                <span class="roles__item">Full-Stack Engineer</span>
+                <span class="roles__item">Senior Web Developer</span>
+                <span class="roles__item">AI Enthusiast</span>
+              </span>
+            </p>
+
+            <p class="hero__lede reveal" data-delay="3">
+              Seven years building software that has to hold up in production —
+              React, Vue and Next.js frontends over Django, Node.js and PHP
+              APIs, running on Google Cloud. I lead small teams, own
+              architecture end to end, and ship enterprise platforms for
+              state-owned enterprises and international clients on deadlines
+              that don't move.
+            </p>
+
+            <div class="hero__actions reveal" data-delay="4">
+              <a href="#projects" class="btn btn--primary" data-ripple
+                >View Portfolio</a
+              >
+              <a
+                href="assets/M-Afiif-Imanto-CV.pdf"
+                class="btn btn--ghost"
+                data-ripple
+                download
+              >
+                <svg class="ico" aria-hidden="true">
+                  <use href="#i-download"></use>
+                </svg>
+                Download Resume
+              </a>
+            </div>
+
+            <ul class="social reveal" data-delay="5">
+              <li>
+                <a
+                  href="https://github.com/afiifimanto"
+                  class="social__link"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="GitHub profile"
+                >
+                  <svg class="ico" aria-hidden="true">
+                    <use href="#i-github"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/afiif-imanto-a46a7314b"
+                  class="social__link"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="LinkedIn profile"
+                >
+                  <svg class="ico" aria-hidden="true">
+                    <use href="#i-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:imantoafiif@gmail.com"
+                  class="social__link"
+                  aria-label="Send an email"
+                >
+                  <svg class="ico" aria-hidden="true">
+                    <use href="#i-mail"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Right: portrait (swap the image, keep the frame) -->
+          <div
+            class="hero__portrait reveal"
+            data-delay="2"
+            data-parallax="-0.06"
+          >
+            <div class="portrait">
+              <div class="portrait__glow" aria-hidden="true"></div>
+              <img
+                src="assets/images/portrait.jpg"
+                alt="Portrait of M. Afiif Imanto"
+                width="800"
+                height="800"
+              />
+            </div>
+          </div>
+        </div>
+
+        <a class="scroll-cue" href="#about">
+          <span class="scroll-cue__track" aria-hidden="true"
+            ><span class="scroll-cue__dot"></span
+          ></span>
+          <span class="scroll-cue__label">Scroll</span>
+        </a>
+      </section>
+
+      <!-- ==========================================================
+           ABOUT — two columns + animated statistics
+           ========================================================== -->
+      <section class="section" id="about" aria-labelledby="about-title">
+        <div class="container">
+          <header class="section__head reveal">
+            <p class="section__kicker">01 — About</p>
+            <h2 class="section__title" id="about-title">
+              Engineering that survives contact with production.
+            </h2>
+          </header>
+
+          <div class="about">
+            <div class="about__body reveal">
+              <p>
+                I'm a full-stack engineer based in the Greater Jakarta area with
+                <strong>7+ years</strong>
+                across the stack. I started in frontend at Telkomsigma
+                delivering enterprise applications for Indonesian state-owned
+                companies, and grew into owning whole systems — architecture,
+                APIs, data models, deployment.
+              </p>
+              <p>
+                On the frontend I care about component systems that stay
+                maintainable after the third feature request: reusable
+                architecture, shared utilities, and pixel-accurate translation
+                of Figma into production UI. On the backend I design clean REST
+                APIs in Django, Express and PHP Slim over PostgreSQL and MySQL,
+                and as a
+                <strong>Google Cloud Associate Cloud Engineer</strong> I ship
+                and operate on GCP.
+              </p>
+              <p>
+                I've led a small web team, set a pixel-perfect delivery standard
+                measured against live Figma overlays, mentored through code
+                review, and owned technical decisions across a multi-domain
+                corporate presence. Most recently I've been putting AI into
+                paths that matter commercially — a receipt-to-rewards engine
+                with multimodal OCR, and an anti-fraud layer that catches
+                tampered and AI-generated images before points are ever awarded.
+              </p>
+
+              <ul class="about__list">
+                <li>
+                  End-to-end ownership: architecture, frontend, backend,
+                  deployment
+                </li>
+                <li>
+                  Reusable component systems and shared utilities across product
+                  lines
+                </li>
+                <li>REST API design and clean frontend–backend integration</li>
+                <li>Cloud-native delivery on Google Cloud Platform</li>
+                <li>Team leadership, mentoring, and pragmatic code review</li>
+              </ul>
+            </div>
+
+            <!-- Statistic cards — values count up on first view -->
+            <div class="stats reveal">
+              <article class="stat card">
+                <span class="stat__value" data-count-to="7" data-suffix="+"
+                  >7+</span
+                >
+                <span class="stat__label">Years Experience</span>
+              </article>
+              <article class="stat card">
+                <span class="stat__value" data-count-to="20" data-suffix="+"
+                  >20+</span
+                >
+                <span class="stat__label">Projects Delivered</span>
+              </article>
+              <article class="stat card">
+                <span class="stat__value" data-count-to="10" data-suffix="+"
+                  >10+</span
+                >
+                <span class="stat__label">Enterprise Clients</span>
+              </article>
+              <article class="stat card">
+                <span class="stat__value" data-count-to="5" data-suffix="+"
+                  >5+</span
+                >
+                <span class="stat__label">Engineers Mentored</span>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================================
+           EXPERIENCE — vertical timeline, items animate into view
+           ========================================================== -->
+      <section
+        class="section section--alt"
+        id="experience"
+        aria-labelledby="experience-title"
+      >
+        <div class="container">
+          <header class="section__head reveal">
+            <p class="section__kicker">02 — Experience</p>
+            <h2 class="section__title" id="experience-title">
+              A decade of shipping, compounding.
+            </h2>
+          </header>
+
+          <ol class="timeline">
+            <li class="timeline__item reveal">
+              <span class="timeline__marker" aria-hidden="true"></span>
+              <div class="timeline__card card">
+                <p class="timeline__meta">
+                  <span class="chip chip--live">May 2025 — Present</span>
+                </p>
+                <h3 class="timeline__role">Software Engineer</h3>
+                <p class="timeline__company">Commsult Technology Indonesia</p>
+                <ul class="timeline__points">
+                  <li>
+                    Deliver end-to-end client solutions, matching the stack to
+                    each project — React.js, Django, PostgreSQL and MySQL on
+                    Google Cloud.
+                  </li>
+                  <li>
+                    Own frontend, backend and system design, building reusable
+                    architectures that scale across multiple client
+                    applications.
+                  </li>
+                  <li>
+                    Leverage AI-assisted development tooling to compress
+                    delivery cycles without giving up code quality.
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="timeline__item reveal">
+              <span class="timeline__marker" aria-hidden="true"></span>
+              <div class="timeline__card card">
+                <p class="timeline__meta">
+                  <span class="chip">Jun 2024 — May 2025</span>
+                </p>
+                <h3 class="timeline__role">Senior Web Developer</h3>
+                <p class="timeline__company">Commsult Technology Indonesia</p>
+                <ul class="timeline__points">
+                  <li>
+                    Led a small web development team alongside marketing and
+                    design, delivering SEO-optimized corporate sites and
+                    marketing solutions.
+                  </li>
+                  <li>
+                    Introduced a pixel-perfect standard — live builds overlaid
+                    against Figma with comparison tooling to eliminate visual
+                    drift.
+                  </li>
+                  <li>
+                    Owned key technical decisions across the company's
+                    multi-domain web presence.
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="timeline__item reveal">
+              <span class="timeline__marker" aria-hidden="true"></span>
+              <div class="timeline__card card">
+                <p class="timeline__meta">
+                  <span class="chip">Apr 2019 — Apr 2024</span>
+                </p>
+                <h3 class="timeline__role">Frontend Developer</h3>
+                <p class="timeline__company">Telkomsigma</p>
+                <ul class="timeline__points">
+                  <li>
+                    Delivered, maintained and customized frontend and backend
+                    applications for enterprise customers — primarily Indonesian
+                    state-owned companies.
+                  </li>
+                  <li>
+                    Designed and consumed REST APIs, and translated Figma
+                    designs into production interfaces.
+                  </li>
+                  <li>
+                    Collaborated in Agile/Scrum teams across 10+ client
+                    projects.
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="timeline__item reveal">
+              <span class="timeline__marker" aria-hidden="true"></span>
+              <div class="timeline__card card">
+                <p class="timeline__meta">
+                  <span class="chip">Mar 2018 — Dec 2018</span>
+                </p>
+                <h3 class="timeline__role">System Analyst</h3>
+                <p class="timeline__company">Artapala Telekomindo</p>
+                <ul class="timeline__points">
+                  <li>
+                    Conducted social media intelligence research on a
+                    specialized intelligence platform.
+                  </li>
+                  <li>
+                    Provided technical support and delivered product training to
+                    customers.
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="timeline__item reveal">
+              <span class="timeline__marker" aria-hidden="true"></span>
+              <div class="timeline__card card">
+                <p class="timeline__meta">
+                  <span class="chip">Jan 2018 — Mar 2018</span>
+                </p>
+                <h3 class="timeline__role">Web Developer</h3>
+                <p class="timeline__company">Alcatel-Lucent Enterprise</p>
+                <ul class="timeline__points">
+                  <li>
+                    Built the frontend of an e-commerce web application with
+                    integrated social media on Alcatel's Rainbow communication
+                    platform.
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="timeline__item reveal">
+              <span class="timeline__marker" aria-hidden="true"></span>
+              <div class="timeline__card card">
+                <p class="timeline__meta"><span class="chip">2016</span></p>
+                <h3 class="timeline__role">Android Developer — Internship</h3>
+                <p class="timeline__company">Telkomsel</p>
+                <ul class="timeline__points">
+                  <li>
+                    Built a native Android e-voting application with the Android
+                    SDK.
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- ==========================================================
+           CERTIFICATION — headline credential, given its own section
+           ========================================================== -->
+      <section
+        class="section"
+        id="certification"
+        aria-labelledby="certification-title"
+      >
+        <div class="container">
+          <header class="section__head reveal">
+            <p class="section__kicker">03 — Certification</p>
+            <h2 class="section__title" id="certification-title">
+              Google Cloud certified — and using it in production.
+            </h2>
+            <p class="section__lede">
+              Verified by Google, exercised weekly on the platforms I ship.
+            </p>
+          </header>
+
+          <article class="cert card reveal">
+            <!-- Credential -->
+            <div class="cert__main">
+              <span class="cert__badge">
+                <img
+                  src="assets/images/gcp-ace-badge.png"
+                  alt="Google Cloud Certified — Associate Cloud Engineer badge"
+                  width="400"
+                  height="400"
+                  loading="lazy"
+                />
+              </span>
+
+              <p class="cert__issuer">Google Cloud</p>
+              <h3 class="cert__title">Associate Cloud Engineer</h3>
+
+              <p class="cert__meta">
+                <span class="chip chip--live">
+                  <span class="pulse" aria-hidden="true"></span> Active
+                </span>
+                <span class="chip">Jul 2026 — Jul 2029</span>
+                <span class="chip">Credential verified on Credly</span>
+              </p>
+
+              <p class="cert__note">
+                Google's associate-level certification for engineers who deploy
+                and operate real workloads on Google Cloud — not just architect
+                them on paper. It covers the full lifecycle: standing up a
+                project, configuring compute, storage and networking, deploying
+                services, then keeping them healthy and locked down.
+              </p>
+
+              <p class="cert__actions">
+                <a
+                  class="btn btn--primary"
+                  href="https://www.credly.com/badges/d72f3db8-43eb-46b6-ad9b-b6dd338d9e7b"
+                  target="_blank"
+                  rel="noopener"
+                  data-ripple
+                >
+                  <svg class="ico" aria-hidden="true">
+                    <use href="#i-external"></use>
+                  </svg>
+                  Verify the credential
+                </a>
+              </p>
+            </div>
+
+            <!-- What the exam validates + how it shows up in the work -->
+            <div class="cert__detail">
+              <p class="cert__detail-title">What it validates</p>
+              <ul class="cert__list">
+                <li>Setting up a cloud solution environment</li>
+                <li>Planning and configuring a cloud solution</li>
+                <li>Deploying and implementing cloud solutions</li>
+                <li>Ensuring successful operation of cloud solutions</li>
+                <li>Configuring access and security with IAM</li>
+              </ul>
+
+              <p class="cert__applied">
+                <strong>In practice:</strong> Django and React services on
+                Google Cloud behind the Amantara consumer platform and Commsult
+                client work — including the Gemini-powered receipt OCR and
+                anti-fraud pipeline.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ==========================================================
+           EDUCATION
+           ========================================================== -->
+      <section
+        class="section section--alt"
+        id="education"
+        aria-labelledby="education-title"
+      >
+        <div class="container">
+          <header class="section__head reveal">
+            <p class="section__kicker">04 — Education</p>
+            <h2 class="section__title" id="education-title">
+              Where the fundamentals came from.
+            </h2>
+          </header>
+
+          <div class="credentials">
+            <article class="card credential reveal">
+              <span class="credential__icon" aria-hidden="true">
+                <svg class="ico"><use href="#i-cap"></use></svg>
+              </span>
+              <p class="credential__kicker">Bachelor's degree</p>
+              <h3 class="credential__title">B.Eng. Informatics Engineering</h3>
+              <p class="credential__org">Sriwijaya University</p>
+              <p class="credential__meta">
+                <span class="chip">2013 — 2017</span>
+                <span class="chip chip--live">Cum Laude</span>
+              </p>
+              <p class="credential__note">
+                Computer science degree covering algorithms, data structures,
+                databases and software engineering — the foundation the rest of
+                the work is built on.
+              </p>
+            </article>
+
+            <article class="card credential reveal">
+              <span class="credential__icon" aria-hidden="true">
+                <svg class="ico"><use href="#i-cap"></use></svg>
+              </span>
+              <p class="credential__kicker">High School</p>
+              <h3 class="credential__title">Science Programme</h3>
+              <p class="credential__org">SMA Negeri 1 Palembang</p>
+              <p class="credential__meta">
+                <span class="chip">2010 — 2013</span>
+              </p>
+              <p class="credential__note">
+                Natural-sciences track — mathematics and physics groundwork
+                before informatics engineering.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================================
+           PROJECTS — featured work, cards elevate on hover
+           ========================================================== -->
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <div class="container">
+          <header class="section__head reveal">
+            <p class="section__kicker">05 — Selected Work</p>
+            <h2 class="section__title" id="projects-title">
+              Featured projects.
+            </h2>
+            <p class="section__lede">
+              Platforms delivered for property groups, agencies and state-owned
+              enterprises. Most repositories are client-owned and private.
+            </p>
+          </header>
+
+          <div class="projects">
+            <!-- Project 1 — Amantara -->
+            <article class="project card reveal">
+              <div class="project__thumb">
+                <img
+                  src="assets/images/project-1.svg"
+                  alt="Amantara consumer experience ecosystem"
+                  loading="lazy"
+                  width="1200"
+                  height="750"
+                />
+              </div>
+              <div class="project__body">
+                <div class="project__head">
+                  <h3 class="project__title">
+                    Amantara — Consumer Experience Ecosystem
+                  </h3>
+                  <span class="chip chip--live">Current</span>
+                </div>
+                <p class="project__desc">
+                  A multi-application consumer platform for Amantara, a managed
+                  mega-development inside PIK 2 under a subsidiary of Agung
+                  Sedayu Group. I built the Django consumer backend and the APIs
+                  consumed across the platform, an AI receipt-to-rewards engine
+                  using Gemini multimodal OCR to extract billed totals, and an
+                  anti-fraud layer that inspects image metadata to catch
+                  tampered or AI-generated receipts before points are awarded. I
+                  also engineered an immersive 3D map of PIK 2 in Flutter on
+                  Thermion (Google Filament) for GPU-accelerated, gesture-driven
+                  navigation, plus a tenant voucher-redemption PWA.
+                </p>
+                <ul class="tags">
+                  <li>
+                    <svg class="tag__ico i-django" aria-hidden="true">
+                      <use href="#t-django"></use></svg
+                    >Django
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-flutter" aria-hidden="true">
+                      <use href="#t-flutter"></use></svg
+                    >Flutter
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-pwa" aria-hidden="true">
+                      <use href="#t-pwa"></use></svg
+                    >PWA
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-postgres" aria-hidden="true">
+                      <use href="#t-database"></use></svg
+                    >PostgreSQL
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-mysql" aria-hidden="true">
+                      <use href="#t-database"></use></svg
+                    >MySQL
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-gcp" aria-hidden="true">
+                      <use href="#t-cloud"></use></svg
+                    >Google Cloud
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-gemini" aria-hidden="true">
+                      <use href="#t-sparkle"></use></svg
+                    >Gemini AI
+                  </li>
+                  <li>
+                    <svg class="tag__ico" aria-hidden="true">
+                      <use href="#t-layers"></use></svg
+                    >Thermion / Filament
+                  </li>
+                </ul>
+                <p class="project__actions">
+                  <span class="btn btn--tiny is-disabled">
+                    <svg class="ico" aria-hidden="true">
+                      <use href="#i-lock"></use>
+                    </svg>
+                    Private repo
+                  </span>
+                  <span class="btn btn--tiny is-disabled">Client-internal</span>
+                </p>
+              </div>
+            </article>
+
+            <!-- Project 2 — Bintang Agency -->
+            <article class="project card reveal">
+              <div class="project__thumb">
+                <img
+                  src="assets/images/project-2.svg"
+                  alt="Bintang Agency KOL and marketing campaign platform"
+                  loading="lazy"
+                  width="1200"
+                  height="750"
+                />
+              </div>
+              <div class="project__body">
+                <div class="project__head">
+                  <h3 class="project__title">
+                    Bintang Agency — KOL &amp; Campaign Platform
+                  </h3>
+                  <span class="chip">2025</span>
+                </div>
+                <p class="project__desc">
+                  Solo-led frontend development of a large KOL and marketing
+                  campaign platform, owning architecture and feature delivery
+                  inside a compressed two-month window. Implemented complex
+                  campaign workflows, KOL management and data-driven dashboards
+                  on reusable UI components, contributed backend work in CAFE
+                  (the company's proprietary Java framework), and drove
+                  stabilization with QA through to production readiness.
+                </p>
+                <ul class="tags">
+                  <li>
+                    <svg class="tag__ico i-react" aria-hidden="true">
+                      <use href="#t-react"></use></svg
+                    >React.js
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-java" aria-hidden="true">
+                      <use href="#t-java"></use></svg
+                    >CAFE (Java)
+                  </li>
+                  <li>
+                    <svg class="tag__ico" aria-hidden="true">
+                      <use href="#t-table"></use></svg
+                    >Dashboards
+                  </li>
+                  <li>
+                    <svg class="tag__ico" aria-hidden="true">
+                      <use href="#t-blocks"></use></svg
+                    >Design Systems
+                  </li>
+                </ul>
+                <p class="project__actions">
+                  <span class="btn btn--tiny is-disabled">
+                    <svg class="ico" aria-hidden="true">
+                      <use href="#i-lock"></use>
+                    </svg>
+                    Private repo
+                  </span>
+                  <a
+                    class="btn btn--tiny"
+                    href="https://kranjang.co.id"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <svg class="ico" aria-hidden="true">
+                      <use href="#i-external"></use>
+                    </svg>
+                    Live Demo
+                  </a>
+                </p>
+              </div>
+            </article>
+
+            <!-- Project 3 — Nex Entertainment -->
+            <article class="project card reveal">
+              <div class="project__thumb">
+                <img
+                  src="assets/images/project-3.svg"
+                  alt="Nex Entertainment campaign management platform"
+                  loading="lazy"
+                  width="1200"
+                  height="750"
+                />
+              </div>
+              <div class="project__body">
+                <div class="project__head">
+                  <h3 class="project__title">
+                    Nex Entertainment — Campaign Management
+                  </h3>
+                  <span class="chip">2025</span>
+                </div>
+                <p class="project__desc">
+                  Frontend of a KOL and marketing campaign management platform
+                  delivered over a six-month cycle. I designed the core frontend
+                  architecture, reusable component systems and shared utilities
+                  later reused across subsequent projects, and partnered with
+                  another frontend engineer on planning and code review —
+                  released stable, ahead of schedule.
+                </p>
+                <ul class="tags">
+                  <li>
+                    <svg class="tag__ico i-react" aria-hidden="true">
+                      <use href="#t-react"></use></svg
+                    >React.js
+                  </li>
+                  <li>
+                    <svg class="tag__ico" aria-hidden="true">
+                      <use href="#t-blocks"></use></svg
+                    >Component Architecture
+                  </li>
+                  <li>
+                    <svg class="tag__ico" aria-hidden="true">
+                      <use href="#t-review"></use></svg
+                    >Code Review
+                  </li>
+                </ul>
+                <p class="project__actions">
+                  <span class="btn btn--tiny is-disabled">
+                    <svg class="ico" aria-hidden="true">
+                      <use href="#i-lock"></use>
+                    </svg>
+                    Private repo
+                  </span>
+                  <a
+                    class="btn btn--tiny"
+                    href="https://nexentertainment.live"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <svg class="ico" aria-hidden="true">
+                      <use href="#i-external"></use>
+                    </svg>
+                    Live Demo
+                  </a>
+                </p>
+              </div>
+            </article>
+
+            <!-- Project 4 — Ontego Cockpit -->
+            <article class="project card reveal">
+              <div class="project__thumb">
+                <img
+                  src="assets/images/project-4.svg"
+                  alt="Ontego Cockpit SAP operations interface"
+                  loading="lazy"
+                  width="1200"
+                  height="750"
+                />
+              </div>
+              <div class="project__body">
+                <div class="project__head">
+                  <h3 class="project__title">
+                    Ontego Cockpit — SAP Operations
+                  </h3>
+                  <span class="chip chip--live">Ongoing</span>
+                </div>
+                <p class="project__desc">
+                  Full-stack feature development for the Ontego SAP cockpit:
+                  REST APIs designed and built in Express.js, integrated on a
+                  React frontend, with Figma sliced into production UI and daily
+                  Agile collaboration.
+                </p>
+                <ul class="tags">
+                  <li>
+                    <svg class="tag__ico i-react" aria-hidden="true">
+                      <use href="#t-react"></use></svg
+                    >React.js
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-express" aria-hidden="true">
+                      <use href="#t-express"></use></svg
+                    >Express.js
+                  </li>
+                  <li>
+                    <svg class="tag__ico" aria-hidden="true">
+                      <use href="#t-api"></use></svg
+                    >REST API
+                  </li>
+                  <li>
+                    <svg class="tag__ico" aria-hidden="true">
+                      <use href="#t-layers"></use></svg
+                    >SAP
+                  </li>
+                </ul>
+                <p class="project__actions">
+                  <span class="btn btn--tiny is-disabled">
+                    <svg class="ico" aria-hidden="true">
+                      <use href="#i-lock"></use>
+                    </svg>
+                    Private repo
+                  </span>
+                  <a
+                    class="btn btn--tiny"
+                    href="https://ontego.de"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <svg class="ico" aria-hidden="true">
+                      <use href="#i-external"></use>
+                    </svg>
+                    Live Demo
+                  </a>
+                </p>
+              </div>
+            </article>
+
+            <!-- Project 5 — Commsult corporate web -->
+            <article class="project card reveal">
+              <div class="project__thumb">
+                <img
+                  src="assets/images/project-5.svg"
+                  alt="Commsult multi-domain corporate websites"
+                  loading="lazy"
+                  width="1200"
+                  height="750"
+                />
+              </div>
+              <div class="project__body">
+                <div class="project__head">
+                  <h3 class="project__title">
+                    Commsult — Multi-domain Corporate Web
+                  </h3>
+                  <span class="chip">2024 — Present</span>
+                </div>
+                <p class="project__desc">
+                  Led a small team developing, maintaining and customizing the
+                  company's corporate web presence across three domains. Owned
+                  the technical decisions behind a consistent, seamless
+                  experience and delivered pixel-accurate Figma implementations.
+                </p>
+                <ul class="tags">
+                  <li>
+                    <svg class="tag__ico" aria-hidden="true">
+                      <use href="#t-route"></use></svg
+                    >Team Lead
+                  </li>
+                  <li>
+                    <svg class="tag__ico" aria-hidden="true">
+                      <use href="#t-seo"></use></svg
+                    >SEO
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-figma" aria-hidden="true">
+                      <use href="#t-figma"></use></svg
+                    >Pixel-perfect UI
+                  </li>
+                  <li>
+                    <svg class="tag__ico" aria-hidden="true">
+                      <use href="#t-link"></use></svg
+                    >Multi-domain
+                  </li>
+                </ul>
+                <p class="project__actions">
+                  <span class="btn btn--tiny is-disabled">
+                    <svg class="ico" aria-hidden="true">
+                      <use href="#i-lock"></use>
+                    </svg>
+                    Private repo
+                  </span>
+                  <a
+                    class="btn btn--tiny"
+                    href="https://commsult.id"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <svg class="ico" aria-hidden="true">
+                      <use href="#i-external"></use>
+                    </svg>
+                    Live Demo
+                  </a>
+                </p>
+              </div>
+            </article>
+
+            <!-- Project 6 — Dexter -->
+            <article class="project card reveal">
+              <div class="project__thumb">
+                <img
+                  src="assets/images/project-6.svg"
+                  alt="Dexter digital signature and e-meterai application"
+                  loading="lazy"
+                  width="1200"
+                  height="750"
+                />
+              </div>
+              <div class="project__body">
+                <div class="project__head">
+                  <h3 class="project__title">
+                    Dexter — Digital Signature &amp; e-Meterai
+                  </h3>
+                  <span class="chip">2023 — 2024</span>
+                </div>
+                <p class="project__desc">
+                  A digital signature, stamping and electronic stamp-duty
+                  application powered by Peruri systems. I designed and built
+                  the Django backend APIs, consumed them on the frontend, and
+                  delivered the interface from Figma.
+                </p>
+                <ul class="tags">
+                  <li>
+                    <svg class="tag__ico i-django" aria-hidden="true">
+                      <use href="#t-django"></use></svg
+                    >Django
+                  </li>
+                  <li>
+                    <svg class="tag__ico" aria-hidden="true">
+                      <use href="#t-api"></use></svg
+                    >REST API
+                  </li>
+                  <li>
+                    <svg class="tag__ico" aria-hidden="true">
+                      <use href="#t-shield"></use></svg
+                    >Peruri
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-figma" aria-hidden="true">
+                      <use href="#t-figma"></use></svg
+                    >Figma
+                  </li>
+                </ul>
+                <p class="project__actions">
+                  <span class="btn btn--tiny is-disabled">
+                    <svg class="ico" aria-hidden="true">
+                      <use href="#i-lock"></use>
+                    </svg>
+                    Private repo
+                  </span>
+                  <span class="btn btn--tiny is-disabled">Client-internal</span>
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================================
+           SKILLS — tag-based toolkit, every category open by default
+           ========================================================== -->
+      <section
+        class="section section--alt"
+        id="skills"
+        aria-labelledby="skills-title"
+      >
+        <div class="container">
+          <header class="section__head reveal">
+            <p class="section__kicker">06 — Capabilities</p>
+            <h2 class="section__title" id="skills-title">The toolkit.</h2>
+            <p class="section__lede">
+              Grouped by discipline. Collapse a category with its header if you
+              want a shorter view.
+            </p>
+          </header>
+
+          <div class="skills">
+            <!-- Frontend -->
+            <article class="skill card reveal">
+              <h3 class="skill__heading">
+                <button
+                  type="button"
+                  class="skill__head"
+                  aria-expanded="true"
+                  aria-controls="skill-frontend"
+                >
+                  <span class="skill__name">Frontend</span>
+                  <span class="skill__count">10</span>
+                  <span class="skill__chevron" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div class="skill__panel is-open" id="skill-frontend">
+                <ul class="tags tags--lg">
+                  <li>
+                    <svg class="tag__ico i-html" aria-hidden="true">
+                      <use href="#t-html"></use></svg
+                    >HTML5
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-css" aria-hidden="true">
+                      <use href="#t-css"></use></svg
+                    >CSS3
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-js" aria-hidden="true">
+                      <use href="#t-js"></use></svg
+                    >JavaScript
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-ts" aria-hidden="true">
+                      <use href="#t-ts"></use></svg
+                    >TypeScript
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-react" aria-hidden="true">
+                      <use href="#t-react"></use></svg
+                    >React.js
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-next" aria-hidden="true">
+                      <use href="#t-next"></use></svg
+                    >Next.js
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-vue" aria-hidden="true">
+                      <use href="#t-vue"></use></svg
+                    >Vue.js
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-nuxt" aria-hidden="true">
+                      <use href="#t-nuxt"></use></svg
+                    >Nuxt.js
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-sass" aria-hidden="true">
+                      <use href="#t-sass"></use></svg
+                    >SASS / LESS
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-tailwind" aria-hidden="true">
+                      <use href="#t-tailwind"></use></svg
+                    >Tailwind CSS
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <!-- Mobile -->
+            <article class="skill card reveal">
+              <h3 class="skill__heading">
+                <button
+                  type="button"
+                  class="skill__head"
+                  aria-expanded="true"
+                  aria-controls="skill-mobile"
+                >
+                  <span class="skill__name">Mobile</span>
+                  <span class="skill__count">5</span>
+                  <span class="skill__chevron" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div class="skill__panel is-open" id="skill-mobile">
+                <ul class="tags tags--lg">
+                  <li>
+                    <svg class="tag__ico i-react" aria-hidden="true">
+                      <use href="#t-react"></use></svg
+                    >React Native
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-flutter" aria-hidden="true">
+                      <use href="#t-flutter"></use></svg
+                    >Flutter
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-pwa" aria-hidden="true">
+                      <use href="#t-pwa"></use></svg
+                    >PWA
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-capacitor" aria-hidden="true">
+                      <use href="#t-capacitor"></use></svg
+                    >Capacitor
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-android" aria-hidden="true">
+                      <use href="#t-android"></use></svg
+                    >Android SDK
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <!-- Backend -->
+            <article class="skill card reveal">
+              <h3 class="skill__heading">
+                <button
+                  type="button"
+                  class="skill__head"
+                  aria-expanded="true"
+                  aria-controls="skill-backend"
+                >
+                  <span class="skill__name">Backend &amp; APIs</span>
+                  <span class="skill__count">7</span>
+                  <span class="skill__chevron" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div class="skill__panel is-open" id="skill-backend">
+                <ul class="tags tags--lg">
+                  <li>
+                    <svg class="tag__ico i-django" aria-hidden="true">
+                      <use href="#t-django"></use></svg
+                    >Django
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-node" aria-hidden="true">
+                      <use href="#t-node"></use></svg
+                    >Node.js
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-express" aria-hidden="true">
+                      <use href="#t-express"></use></svg
+                    >Express.js
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-php" aria-hidden="true">
+                      <use href="#t-php"></use></svg
+                    >PHP Slim
+                  </li>
+                  <li>
+                    <svg class="tag__ico" aria-hidden="true">
+                      <use href="#t-api"></use></svg
+                    >REST API Design
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-python" aria-hidden="true">
+                      <use href="#t-python"></use></svg
+                    >Python
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-java" aria-hidden="true">
+                      <use href="#t-java"></use></svg
+                    >Java
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <!-- Cloud & DevOps -->
+            <article class="skill card reveal">
+              <h3 class="skill__heading">
+                <button
+                  type="button"
+                  class="skill__head"
+                  aria-expanded="true"
+                  aria-controls="skill-cloud"
+                >
+                  <span class="skill__name">Cloud &amp; DevOps</span>
+                  <span class="skill__count">6</span>
+                  <span class="skill__chevron" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div class="skill__panel is-open" id="skill-cloud">
+                <ul class="tags tags--lg">
+                  <li>
+                    <svg class="tag__ico i-gcp" aria-hidden="true">
+                      <use href="#t-cloud"></use></svg
+                    >Google Cloud Platform
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-docker" aria-hidden="true">
+                      <use href="#t-docker"></use></svg
+                    >Docker
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-cicd" aria-hidden="true">
+                      <use href="#t-cycle"></use></svg
+                    >CI/CD
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-git" aria-hidden="true">
+                      <use href="#t-git"></use></svg
+                    >Git
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-bitbucket" aria-hidden="true">
+                      <use href="#t-bitbucket"></use></svg
+                    >Bitbucket
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-vite" aria-hidden="true">
+                      <use href="#t-vite"></use></svg
+                    >Vite
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <!-- Database -->
+            <article class="skill card reveal">
+              <h3 class="skill__heading">
+                <button
+                  type="button"
+                  class="skill__head"
+                  aria-expanded="true"
+                  aria-controls="skill-database"
+                >
+                  <span class="skill__name">Database</span>
+                  <span class="skill__count">4</span>
+                  <span class="skill__chevron" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div class="skill__panel is-open" id="skill-database">
+                <ul class="tags tags--lg">
+                  <li>
+                    <svg class="tag__ico i-postgres" aria-hidden="true">
+                      <use href="#t-database"></use></svg
+                    >PostgreSQL
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-mysql" aria-hidden="true">
+                      <use href="#t-database"></use></svg
+                    >MySQL
+                  </li>
+                  <li>
+                    <svg class="tag__ico" aria-hidden="true">
+                      <use href="#t-nodes"></use></svg
+                    >Relational Modeling
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-dbeaver" aria-hidden="true">
+                      <use href="#t-table"></use></svg
+                    >DBeaver
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <!-- Architecture -->
+            <article class="skill card reveal">
+              <h3 class="skill__heading">
+                <button
+                  type="button"
+                  class="skill__head"
+                  aria-expanded="true"
+                  aria-controls="skill-architecture"
+                >
+                  <span class="skill__name">Architecture</span>
+                  <span class="skill__count">6</span>
+                  <span class="skill__chevron" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div class="skill__panel is-open" id="skill-architecture">
+                <ul class="tags tags--lg">
+                  <li>
+                    <svg class="tag__ico" aria-hidden="true">
+                      <use href="#t-layers"></use></svg
+                    >System Design
+                  </li>
+                  <li>
+                    <svg class="tag__ico" aria-hidden="true">
+                      <use href="#t-blocks"></use></svg
+                    >Component Systems
+                  </li>
+                  <li>
+                    <svg class="tag__ico" aria-hidden="true">
+                      <use href="#t-gear"></use></svg
+                    >Reusable Architecture
+                  </li>
+                  <li>
+                    <svg class="tag__ico" aria-hidden="true">
+                      <use href="#t-link"></use></svg
+                    >Frontend–Backend Integration
+                  </li>
+                  <li>
+                    <svg class="tag__ico" aria-hidden="true">
+                      <use href="#t-expand"></use></svg
+                    >Scalability
+                  </li>
+                  <li>
+                    <svg class="tag__ico" aria-hidden="true">
+                      <use href="#t-route"></use></svg
+                    >Technical Decision-making
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <!-- AI Engineering -->
+            <article class="skill card reveal">
+              <h3 class="skill__heading">
+                <button
+                  type="button"
+                  class="skill__head"
+                  aria-expanded="true"
+                  aria-controls="skill-ai"
+                >
+                  <span class="skill__name">AI Engineering</span>
+                  <span class="skill__count">5</span>
+                  <span class="skill__chevron" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div class="skill__panel is-open" id="skill-ai">
+                <ul class="tags tags--lg">
+                  <li>
+                    <svg class="tag__ico i-gemini" aria-hidden="true">
+                      <use href="#t-sparkle"></use></svg
+                    >Google Gemini
+                  </li>
+                  <li>
+                    <svg class="tag__ico" aria-hidden="true">
+                      <use href="#t-scan"></use></svg
+                    >Multimodal Vision &amp; OCR
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-shield" aria-hidden="true">
+                      <use href="#t-shield"></use></svg
+                    >Fraud &amp; Tamper Detection
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-cursor" aria-hidden="true">
+                      <use href="#t-cursor"></use></svg
+                    >Cursor
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-claude" aria-hidden="true">
+                      <use href="#t-claude"></use></svg
+                    >Claude Code
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <!-- Practices & Tools -->
+            <article class="skill card reveal">
+              <h3 class="skill__heading">
+                <button
+                  type="button"
+                  class="skill__head"
+                  aria-expanded="true"
+                  aria-controls="skill-practices"
+                >
+                  <span class="skill__name">Practices &amp; Tools</span>
+                  <span class="skill__count">6</span>
+                  <span class="skill__chevron" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div class="skill__panel is-open" id="skill-practices">
+                <ul class="tags tags--lg">
+                  <li>
+                    <svg class="tag__ico" aria-hidden="true">
+                      <use href="#t-cycle"></use></svg
+                    >Agile / Scrum
+                  </li>
+                  <li>
+                    <svg class="tag__ico" aria-hidden="true">
+                      <use href="#t-review"></use></svg
+                    >Code Review
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-figma" aria-hidden="true">
+                      <use href="#t-figma"></use></svg
+                    >Figma-to-code
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-test" aria-hidden="true">
+                      <use href="#t-bug"></use></svg
+                    >Manual &amp; Regression Testing
+                  </li>
+                  <li>
+                    <svg class="tag__ico i-postman" aria-hidden="true">
+                      <use href="#t-plane"></use></svg
+                    >Postman
+                  </li>
+                  <li>
+                    <svg class="tag__ico" aria-hidden="true">
+                      <use href="#t-seo"></use></svg
+                    >SEO-optimized Delivery
+                  </li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================================
+           LEADERSHIP — how I work beyond the keyboard
+           ========================================================== -->
+      <section
+        class="section"
+        id="leadership"
+        aria-labelledby="leadership-title"
+      >
+        <div class="container">
+          <header class="section__head reveal">
+            <p class="section__kicker">07 — Leadership</p>
+            <h2 class="section__title" id="leadership-title">
+              Beyond the commit history.
+            </h2>
+          </header>
+
+          <div class="leadership">
+            <article class="lead-card card reveal">
+              <span class="lead-card__num" aria-hidden="true">01</span>
+              <h3>Technical Leadership</h3>
+              <p>
+                Led a small web team and owned the technical decisions across a
+                multi-domain product surface, keeping delivery coherent as scope
+                grew.
+              </p>
+            </article>
+            <article class="lead-card card reveal">
+              <span class="lead-card__num" aria-hidden="true">02</span>
+              <h3>Mentoring</h3>
+              <p>
+                Grew engineers through pairing and review — sharing architecture
+                reasoning, not just corrections, so decisions stay sound after I
+                leave the thread.
+              </p>
+            </article>
+            <article class="lead-card card reveal">
+              <span class="lead-card__num" aria-hidden="true">03</span>
+              <h3>System Design</h3>
+              <p>
+                Helped design platform-wide architecture spanning multiple
+                integrated applications, from data models to the API contracts
+                between teams.
+              </p>
+            </article>
+            <article class="lead-card card reveal">
+              <span class="lead-card__num" aria-hidden="true">04</span>
+              <h3>Architecture</h3>
+              <p>
+                Built reusable component systems and shared utilities that
+                outlived their original project and became the baseline for the
+                next ones.
+              </p>
+            </article>
+            <article class="lead-card card reveal">
+              <span class="lead-card__num" aria-hidden="true">05</span>
+              <h3>Code Reviews</h3>
+              <p>
+                Reviewed with intent: catching structural problems early,
+                keeping conventions consistent, and protecting the codebase from
+                one-off shortcuts.
+              </p>
+            </article>
+            <article class="lead-card card reveal">
+              <span class="lead-card__num" aria-hidden="true">06</span>
+              <h3>Agile Delivery</h3>
+              <p>
+                Years of Scrum across 10+ enterprise client projects — standups,
+                iterative stabilization with QA, and releases that land on the
+                date promised.
+              </p>
+            </article>
+            <article class="lead-card card reveal">
+              <span class="lead-card__num" aria-hidden="true">07</span>
+              <h3>Innovation</h3>
+              <p>
+                Brought multimodal AI into production revenue paths — OCR-driven
+                rewards and an anti-fraud layer protecting the loyalty economy
+                from abuse.
+              </p>
+            </article>
+            <article class="lead-card card reveal">
+              <span class="lead-card__num" aria-hidden="true">08</span>
+              <h3>Engineering Excellence</h3>
+              <p>
+                Set a pixel-perfect standard using live-build-versus-Figma
+                comparison tooling, removing visual drift as a category of bug
+                entirely.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================================
+           CONTACT — details only. No form: the site is fully static, so
+           there is no endpoint to submit to. Email is the direct route.
+           ========================================================== -->
+      <section
+        class="section section--alt"
+        id="contact"
+        aria-labelledby="contact-title"
+      >
+        <div class="container">
+          <header class="section__head reveal">
+            <p class="section__kicker">08 — Contact</p>
+            <h2 class="section__title" id="contact-title">
+              Let's build something durable.
+            </h2>
+            <p class="section__lede">
+              Open to senior engineering roles, technical leadership, and
+              selected consulting work.
+            </p>
+          </header>
+
+          <div class="contact card reveal">
+            <!-- Details -->
+            <div class="contact__details">
+              <a class="contact__row" href="mailto:imantoafiif@gmail.com">
+                <span class="contact__icon"
+                  ><svg class="ico" aria-hidden="true">
+                    <use href="#i-mail"></use></svg
+                ></span>
+                <span class="contact__text">
+                  <span class="contact__label">Email</span>
+                  <span class="contact__value">imantoafiif@gmail.com</span>
+                </span>
+              </a>
+              <a
+                class="contact__row"
+                href="https://www.linkedin.com/in/afiif-imanto-a46a7314b"
+                target="_blank"
+                rel="noopener"
+              >
+                <span class="contact__icon"
+                  ><svg class="ico" aria-hidden="true">
+                    <use href="#i-linkedin"></use></svg
+                ></span>
+                <span class="contact__text">
+                  <span class="contact__label">LinkedIn</span>
+                  <span class="contact__value">/in/afiif-imanto</span>
+                </span>
+              </a>
+              <a
+                class="contact__row"
+                href="https://github.com/afiifimanto"
+                target="_blank"
+                rel="noopener"
+              >
+                <span class="contact__icon"
+                  ><svg class="ico" aria-hidden="true">
+                    <use href="#i-github"></use></svg
+                ></span>
+                <span class="contact__text">
+                  <span class="contact__label">GitHub</span>
+                  <span class="contact__value">@afiifimanto</span>
+                </span>
+              </a>
+              <p class="contact__row contact__row--static">
+                <span class="contact__icon"
+                  ><svg class="ico" aria-hidden="true">
+                    <use href="#i-pin"></use></svg
+                ></span>
+                <span class="contact__text">
+                  <span class="contact__label">Location</span>
+                  <span class="contact__value"
+                    >Greater Jakarta Area, Indonesia</span
+                  >
+                </span>
+              </p>
+            </div>
+
+            <!-- Direct call to action in place of a form -->
+            <div class="contact__cta">
+              <a
+                class="btn btn--primary"
+                href="mailto:imantoafiif@gmail.com?subject=Opportunity%20for%20Afiif%20Imanto"
+                data-ripple
+              >
+                <svg class="ico" aria-hidden="true">
+                  <use href="#i-mail"></use>
+                </svg>
+                Send me an email
+              </a>
+              <a
+                class="btn btn--ghost"
+                href="assets/M-Afiif-Imanto-CV.pdf"
+                data-ripple
+                download
+              >
+                <svg class="ico" aria-hidden="true">
+                  <use href="#i-download"></use>
+                </svg>
+                Download Resume
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============================================================
+         FOOTER
+         ============================================================ -->
+    <footer class="footer">
+      <div class="container footer__inner">
+        <!-- #year is filled in by script.js from the visitor's clock, so there
+             is no year hardcoded anywhere. With JS off the line simply reads
+             without one. -->
+        <p class="footer__copy">
+          © <span id="year"></span> Afiif Imanto. Built with
+          <span class="footer__heart" role="img" aria-label="love">❤️</span>,
+          <svg class="footer__tech i-html" role="img" aria-label="HTML5">
+            <use href="#t-html"></use></svg
+          >,
+          <svg class="footer__tech i-css" role="img" aria-label="CSS3">
+            <use href="#t-css"></use>
+          </svg>
+          and
+          <svg class="footer__tech i-js" role="img" aria-label="JavaScript">
+            <use href="#t-js"></use>
+          </svg>
+          in Jakarta.
+        </p>
+
+        <ul class="social social--sm">
+          <li>
+            <a
+              href="https://github.com/afiifimanto"
+              class="social__link"
+              target="_blank"
+              rel="noopener"
+              aria-label="GitHub profile"
+            >
+              <svg class="ico" aria-hidden="true">
+                <use href="#i-github"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/afiif-imanto-a46a7314b"
+              class="social__link"
+              target="_blank"
+              rel="noopener"
+              aria-label="LinkedIn profile"
+            >
+              <svg class="ico" aria-hidden="true">
+                <use href="#i-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              href="mailto:imantoafiif@gmail.com"
+              class="social__link"
+              aria-label="Send an email"
+            >
+              <svg class="ico" aria-hidden="true">
+                <use href="#i-mail"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Back to top -->
+    <button type="button" class="to-top" id="toTop" aria-label="Back to top">
+      <svg class="ico" aria-hidden="true"><use href="#i-arrow-up"></use></svg>
+    </button>
+
+    <script src="js/script.js" defer></script>
+  </body>
+</html>

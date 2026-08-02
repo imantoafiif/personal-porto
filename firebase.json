@@ -1,0 +1,85 @@
+{
+  "hosting": [
+    {
+      "site": "imantoafiif",
+      "public": ".",
+      "ignore": [
+        "firebase.json",
+        ".firebaserc",
+        "**/.*",
+        "**/node_modules/**",
+        "redirect/**",
+        "README.md"
+      ],
+      "cleanUrls": true,
+      "trailingSlash": false,
+      "headers": [
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            }
+          ]
+        },
+        {
+          "source": "/index",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            }
+          ]
+        },
+        {
+          "source": "**/*.@(html|css|js)",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            }
+          ]
+        },
+        {
+          "source": "**/*.@(mp4|webm|jpg|jpeg|png|svg|webp|ico|pdf|woff2)",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=604800"
+            }
+          ]
+        },
+        {
+          "source": "**",
+          "headers": [
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "Referrer-Policy",
+              "value": "strict-origin-when-cross-origin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "personal-website-14b97",
+      "public": "redirect",
+      "redirects": [
+        {
+          "source": "/",
+          "destination": "https://imantoafiif.web.app/",
+          "type": 301
+        },
+        {
+          "regex": "^/(?P<rest>.*)$",
+          "destination": "https://imantoafiif.web.app/:rest",
+          "type": 301
+        }
+      ]
+    }
+  ]
+}

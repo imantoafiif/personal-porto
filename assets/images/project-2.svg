@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1420"/><stop offset="100%" stop-color="#070A11"/>
+    </linearGradient>
+    <radialGradient id="r2" cx="18%" cy="12%" r="85%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.34"/><stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="r2b" cx="88%" cy="92%" r="70%">
+      <stop offset="0%" stop-color="#22C55E" stop-opacity="0.26"/><stop offset="100%" stop-color="#22C55E" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="p2" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0v48" fill="none" stroke="#FFFFFF" stroke-opacity="0.035"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="750" fill="url(#g2)"/>
+  <rect width="1200" height="750" fill="url(#p2)"/>
+  <rect width="1200" height="750" fill="url(#r2)"/>
+  <rect width="1200" height="750" fill="url(#r2b)"/>
+  <g><rect x="330" y="470" width="44" height="90" rx="6" fill="#3B82F6" opacity="0.25"/><rect x="410" y="410" width="44" height="150" rx="6" fill="#3B82F6" opacity="0.34"/><rect x="490" y="440" width="44" height="120" rx="6" fill="#3B82F6" opacity="0.43"/><rect x="570" y="360" width="44" height="200" rx="6" fill="#3B82F6" opacity="0.52"/><rect x="650" y="400" width="44" height="160" rx="6" fill="#3B82F6" opacity="0.61"/><rect x="730" y="320" width="44" height="240" rx="6" fill="#3B82F6" opacity="0.70"/><rect x="810" y="370" width="44" height="190" rx="6" fill="#3B82F6" opacity="0.79"/></g>
+  <text x="600" y="180" text-anchor="middle" font-family="'Space Grotesk', Inter, sans-serif" font-size="52" font-weight="700" fill="#F5F7FA">Bintang Agency</text>
+  <text x="600" y="226" text-anchor="middle" font-family="Inter, sans-serif" font-size="24" fill="#9CA3AF">KOL Campaign Platform</text>
+</svg>

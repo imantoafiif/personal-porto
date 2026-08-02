@@ -1,0 +1,10 @@
+# Firebase CLI cache and deploy logs
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+
+# macOS
+.DS_Store
+
+# Node — the site itself needs none, this is only for CLI tooling
+node_modules/
